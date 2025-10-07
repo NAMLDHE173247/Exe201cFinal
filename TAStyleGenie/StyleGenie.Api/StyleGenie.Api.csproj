@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>abf7da5c-e5ba-4a50-bec2-dccb7dba8723</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Google.Apis.Auth" Version="1.71.0" />
+	  <PackageReference Include="MailKit" Version="4.13.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.6" />
+	  <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.9">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+	  <PackageReference Include="MimeKit" Version="4.13.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StyleGenie.Application\StyleGenie.Application.csproj" />
+    <ProjectReference Include="..\StyleGenie.Infrastructure\StyleGenie.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

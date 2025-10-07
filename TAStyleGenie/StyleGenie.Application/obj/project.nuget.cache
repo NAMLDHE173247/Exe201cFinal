@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BR1xpvnCZoQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Elike\\Desktop\\GitClone\\stylegeniesv2\\TAStyleGenie\\StyleGenie.Application\\StyleGenie.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Elike\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.9\\microsoft.extensions.configuration.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\Elike\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.9\\microsoft.extensions.dependencyinjection.9.0.9.nupkg.sha512",
+    "C:\\Users\\Elike\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\Elike\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.9\\microsoft.extensions.primitives.9.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

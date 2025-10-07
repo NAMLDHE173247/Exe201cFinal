@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Elike\\Desktop\\GitClone\\stylegeniesv2\\TAStyleGenie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5F65F4-C69F-4C0B-B139-769ABC49FBED}|StyleGenie.Api\\StyleGenie.Api.csproj|c:\\users\\elike\\desktop\\gitclone\\stylegeniesv2\\tastylegenie\\stylegenie.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5F65F4-C69F-4C0B-B139-769ABC49FBED}|StyleGenie.Api\\StyleGenie.Api.csproj|solutionrelative:stylegenie.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5F65F4-C69F-4C0B-B139-769ABC49FBED}|StyleGenie.Api\\StyleGenie.Api.csproj|c:\\users\\elike\\desktop\\gitclone\\stylegeniesv2\\tastylegenie\\stylegenie.api\\controllers\\managerproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5F65F4-C69F-4C0B-B139-769ABC49FBED}|StyleGenie.Api\\StyleGenie.Api.csproj|solutionrelative:stylegenie.api\\controllers\\managerproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1046,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManagerProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Elike\\Desktop\\GitClone\\stylegeniesv2\\TAStyleGenie\\StyleGenie.Api\\Controllers\\ManagerProductController.cs",
+              "RelativeDocumentMoniker": "StyleGenie.Api\\Controllers\\ManagerProductController.cs",
+              "ToolTip": "C:\\Users\\Elike\\Desktop\\GitClone\\stylegeniesv2\\TAStyleGenie\\StyleGenie.Api\\Controllers\\ManagerProductController.cs",
+              "RelativeToolTip": "StyleGenie.Api\\Controllers\\ManagerProductController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T02:48:51.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Elike\\Desktop\\GitClone\\stylegeniesv2\\TAStyleGenie\\StyleGenie.Api\\Program.cs",
+              "RelativeDocumentMoniker": "StyleGenie.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Elike\\Desktop\\GitClone\\stylegeniesv2\\TAStyleGenie\\StyleGenie.Api\\Program.cs",
+              "RelativeToolTip": "StyleGenie.Api\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T02:40:49.399Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

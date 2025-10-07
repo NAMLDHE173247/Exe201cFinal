@@ -1,0 +1,7 @@
+﻿namespace StyleGenie.Application.Security;
+
+public interface ICrypto
+{
+    string Encrypt(string plaintext);
+    string Decrypt(string base64Cipher);
+}
