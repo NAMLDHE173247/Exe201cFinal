@@ -1,0 +1,138 @@
+.page-wrapper {
+    padding: 24px 16px;
+    background: #fff;
+}
+
+.mpi-container {
+    padding: 0 0 16px 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.page-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 800;
+    background: linear-gradient(136deg, #e01f6b 0%, #a626a6 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.mpi-filters {
+    display: grid;
+    grid-template-columns: 1fr 220px 220px 160px 140px 120px 120px;
+    gap: 12px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.mpi-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #555;
+}
+
+.card-surface {
+    border: 2px solid #e5e7eb;
+    border-radius: 24px;
+    background: #fff;
+    padding: 16px;
+}
+
+.mpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.mpi-card {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 12px;
+    background: #fff;
+}
+
+.mpi-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.mpi-title {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.mpi-price {
+    margin-top: 4px;
+    font-weight: 600;
+}
+
+.mpi-meta {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.mpi-link {
+    display: inline-block;
+    margin-top: 8px;
+    color: #1677ff;
+    text-decoration: none;
+}
+
+.mpi-link:hover {
+    text-decoration: underline;
+}
+
+.mpi-pagination {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.mpi-center {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.btn-gradient {
+    background: linear-gradient(136deg, #e01f6b 0%, #a626a6 100%);
+    color: #fff !important;
+    border: none !important;
+}
+
+.btn-outline-gradient {
+    position: relative;
+    color: #a626a6 !important;
+    background: transparent !important;
+    border: none !important;
+}
+.btn-outline-gradient::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    padding: 2px;
+    border-radius: 6px;
+    background: linear-gradient(136deg, #e01f6b 0%, #a626a6 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}

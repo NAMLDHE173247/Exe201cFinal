@@ -1,0 +1,413 @@
+/* Global styles for register page */
+html, body, #root { 
+    height: 100%; 
+}
+
+body.register-no-wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Remove any wrapper constraints */
+body.register-no-wrapper #root > div {
+    max-width: none !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Register page container */
+.register-page {
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    margin: 0;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: 
+        radial-gradient(1200px 600px at 10% 10%, rgba(224, 31, 107, 0.15) 0%, rgba(224, 31, 107, 0) 60%),
+        radial-gradient(900px 500px at 90% 30%, rgba(166, 38, 166, 0.18) 0%, rgba(166, 38, 166, 0) 60%),
+        linear-gradient(180deg, #ffe8f6 0%, #ffffff 100%);
+    color: #0b1324;
+    overflow-x: hidden;
+}
+
+/* Register container */
+.register-container {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Register card */
+.register-card {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 32px;
+    box-shadow: 
+        0 20px 40px rgba(224, 31, 107, 0.1),
+        0 10px 20px rgba(166, 38, 166, 0.05);
+    padding: 48px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Register header */
+.register-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.register-title {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0 0 12px 0;
+    background: linear-gradient(136deg, #e01f6b 0%, #a626a6 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    letter-spacing: -0.5px;
+}
+
+.register-subtitle {
+    color: #6b7280;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 400;
+}
+
+/* Form styles */
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.verify-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.verify-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    margin: 0;
+}
+
+.form-input {
+    width: 100%;
+    padding: 16px 20px;
+    border: 2px solid #e5e7eb;
+    border-radius: 16px;
+    background: #ffffff;
+    color: #111827;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #e01f6b;
+    box-shadow: 0 0 0 3px rgba(224, 31, 107, 0.1);
+}
+
+.form-input::placeholder {
+    color: #9ca3af;
+}
+
+/* Password input wrapper */
+.password-input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.password-input {
+    padding-right: 80px;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: #e01f6b;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 4px 8px;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.password-toggle:hover {
+    color: #a626a6;
+}
+
+/* Password rules */
+.password-rules {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(100% + 8px);
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(224, 31, 107, 0.2);
+    border-radius: 12px;
+    padding: 16px;
+    z-index: 10;
+    box-shadow: 0 8px 25px rgba(224, 31, 107, 0.15);
+}
+
+.password-rules ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.password-rule {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.password-rule.valid {
+    color: #059669;
+}
+
+.password-rule.invalid {
+    color: #dc2626;
+}
+
+/* Messages */
+.error-message {
+    color: #dc2626;
+    background: rgba(220, 38, 38, 0.1);
+    padding: 12px 16px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid rgba(220, 38, 38, 0.2);
+}
+
+.success-message {
+    color: #059669;
+    background: rgba(5, 150, 105, 0.1);
+    padding: 12px 16px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid rgba(5, 150, 105, 0.2);
+}
+
+.success-details {
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+.verify-instructions {
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.google-error {
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Buttons */
+.register-button, .verify-button {
+    width: 100%;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 16px;
+    background: linear-gradient(136deg, #e01f6b 0%, #a626a6 100%);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 8px;
+}
+
+.register-button:hover:not(:disabled), .verify-button:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 25px rgba(224, 31, 107, 0.3);
+}
+
+.register-button:active:not(:disabled), .verify-button:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.register-button:disabled, .verify-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.resend-button {
+    width: 100%;
+    padding: 14px 24px;
+    border: 2px solid #e01f6b;
+    border-radius: 16px;
+    background: transparent;
+    color: #e01f6b;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.resend-button:hover {
+    background: #e01f6b;
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+/* Divider */
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 32px 0;
+}
+
+.divider-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, #e5e7eb 50%, transparent 100%);
+}
+
+.divider-text {
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* Google login wrapper */
+.google-login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Register footer */
+.register-footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-link {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.login-link-text {
+    color: #e01f6b;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.login-link-text:hover {
+    color: #a626a6;
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .register-page {
+        padding: 16px;
+    }
+    
+    .register-container {
+        max-width: 100%;
+    }
+    
+    .register-card {
+        padding: 32px 24px;
+        border-radius: 24px;
+    }
+    
+    .register-title {
+        font-size: 28px;
+    }
+    
+    .register-subtitle {
+        font-size: 14px;
+    }
+    
+    .form-input {
+        padding: 14px 16px;
+        font-size: 16px;
+    }
+    
+    .register-button, .verify-button {
+        padding: 14px 20px;
+        font-size: 15px;
+    }
+    
+    .resend-button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .register-card {
+        padding: 24px 20px;
+        border-radius: 20px;
+    }
+    
+    .register-title {
+        font-size: 24px;
+    }
+    
+    .form-input {
+        padding: 12px 14px;
+    }
+    
+    .register-button, .verify-button {
+        padding: 12px 16px;
+    }
+    
+    .password-rules {
+        padding: 12px;
+    }
+    
+    .password-rule {
+        font-size: 12px;
+    }
+}

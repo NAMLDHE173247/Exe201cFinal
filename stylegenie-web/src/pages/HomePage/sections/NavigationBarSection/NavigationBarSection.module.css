@@ -1,0 +1,16 @@
+.wrapper { position: sticky; top: 0; z-index: 6; background: #fff; border-radius: 0 0 50px 50px; }
+.nav { display: flex; align-items: center; justify-content: space-between; padding: 20px 100px; }
+.brand { display: inline-flex; align-items: center; gap: 12px; }
+.brandLogo { width: 38px; height: 38px; }
+.brandName { color: #c42287; font-size: 20px; font-weight: 600; font-family: "Poppins", sans-serif; }
+.links { display: inline-flex; gap: 40px; }
+.link { color: #0b1324; text-decoration: none; font-size: 14px; }
+.link:hover { color: #c42287; }
+.actions { display: inline-flex; gap: 16px; }
+
+@media (max-width: 768px) {
+  .nav { padding: 16px 24px; }
+  .links { display: none; }
+}
+
+
